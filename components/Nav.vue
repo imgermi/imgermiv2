@@ -20,6 +20,7 @@
     right: 0
     padding-top: 45px
     z-index: 10
+    transition: all 200ms ease-out
     nav
       display: flex
       a
@@ -37,4 +38,9 @@
           padding-left: 0
         &:hover
           color: #C8B382
+
+  .page-leave-active, .page-enter-active
+    header
+      transform: translateY(-20%)
+      opacity: 0
 </style>

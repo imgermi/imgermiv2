@@ -16,6 +16,16 @@
   html
     background: #27272F
     font-family: 'Montserrat', sans-serif
+    transition: all 200ms ease-in
+
+  .page-enter-active, .page-leave-active 
+    transition: all .35s .20s ease-out
+    html
+      opacity: 0
+  .page-enter, .page-leave-active
+    opacity: 0
+    transform-origin: 50% 50%
+  
 
   .btn
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.06)
@@ -27,11 +37,20 @@
     display: inline-block
     transition: all 200ms ease-in
     position: relative
+    cursor: pointer
+    border: 0
+    border-radius: 0
     &:hover
       background: #F5F5F5
       color: #C8B382
       box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.06)
-
+    &.disabled
+      cursor: default
+      opacity: 0.6
+      &:hover
+        background: #C8B382
+        color: #F5F5F5
+        
     &.btn__xl
       text-transform: uppercase
       letter-spacing: 0.1em
@@ -102,6 +121,10 @@
     padding: 50px 0
 
   .notelink
+    margin-bottom: 30px
+    > a
+      display: block
+      text-decoration: none
     &:not(:last-child)
       margin-bottom: 30px
     &__h
@@ -122,6 +145,8 @@
       position: relative
       padding-bottom: 7px
       transition: all 300ms ease-in-out
+      text-decoration: none
+      display: inline-block
       &:hover
         color: #C8B382
         &:after
@@ -140,6 +165,9 @@
       &:after
         width: 0
         background: #C8B382
+    img
+      display: block
+      margin-bottom: 15px
   
   .section
     &.work
@@ -149,6 +177,9 @@
         display: block
         position: relative
         right: -20%
+        @media(min-width: 1300px)
+          right: -30%
+          max-width: 1000px
     &.about
       .avatar
         max-width: 200px

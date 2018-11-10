@@ -1,112 +1,114 @@
 <template>
-	<main>
-		<Nav/>
-		<section class="hero">
-		  <div class="container">
-		    <div class="row">
-		      <div class="col-md-6">
-		        <h1 class="hero__h">
-		          Work<small>.</small>
-		        </h1>
-		        <h2 class="hero__sub">A few pieces of work I've been putting together throughout the entire 2018.</h2>
-		      </div>
-		    </div>
-		  </div>
-		</section>
-		<section class="section work">
-		  <div class="container">
-		    <div class="row align-items-center">
-		      <div class="col-md-5">
-		        <span class="sectionContent__preH">Ecommerce</span>
-		        <h3 class="sectionContent__h">Vendexa</h3>
-		        <p class="sectionContent__p">Bringing a new company to life, a story told on Behance.</p>
-		        <nuxt-link to="" class="btn">Read case study</nuxt-link>
-		      </div>
-		      <div class="col-md-7">
-		        <img src="~assets/images/work/vendexa/vendexa-mock.png" alt="Vendexa - Ecommerce">
-		      </div>  
-		    </div>
-		  </div>
-		</section>
-		<section class="section work">
-		  <div class="container">
-		    <div class="row align-items-center">
-		      <div class="col-md-5">
-		        <span class="sectionContent__preH">Mobile app</span>
-		        <h3 class="sectionContent__h">Legister</h3>
-		        <p class="sectionContent__p">From basic idea to concept. From challenge, all the way to a store.</p>
-		        <nuxt-link to="" class="btn">Read case study</nuxt-link>
-		      </div>
-		      <div class="col-md-7">
-		        <img src="~assets/images/work/legister/legister-mock.png" alt="Legister - Mobile App">
-		      </div>  
-		    </div>
-		  </div>
-		</section>
-		<section class="section">
-			<div class="container">
-				<span class="sectionContent__preH">The rest</span>
-				<h3 class="sectionContent__h">All my work</h3>
-				<div class="allwork">
-					<article class="allwork__item">
-						<a href="">
-							<img src="~assets/images/work/all/adigitalboy.jpg" alt="">
-							<div class="overlay">
-								<h6 class="overlay__h">A personal website, for <br> a personal friend</h6>
-								<span class="overlay__sub">View on Dribbble</span>
-							</div>
-						</a>
-					</article>
-					<article class="allwork__item">
-						<a href="">
-							<img src="~assets/images/work/all/faq.jpg" alt="">
-							<div class="overlay">
-								<h6 class="overlay__h">FAQ page for <br> a mobile app</h6>
-								<span class="overlay__sub">View on Dribbble</span>
-							</div>
-						</a>
-					</article>
-					<article class="allwork__item">
-						<a href="">
-							<img src="~assets/images/work/all/vendexa.jpg" alt="">
-							<div class="overlay">
-								<h6 class="overlay__h">Launching an <br> Online Store</h6>
-								<span class="overlay__sub">View on Dribbble</span>
-							</div>
-						</a>
-					</article>
-					<article class="allwork__item">
-						<a href="">
-							<img src="~assets/images/work/all/biffi.jpg" alt="">
-							<div class="overlay">
-								<h6 class="overlay__h">Online course & <br> landing page</h6>
-								<span class="overlay__sub">View on Dribbble</span>
-							</div>
-						</a>
-					</article>
-					<article class="allwork__item">
-						<a href="">
-							<img src="~assets/images/work/all/palm.jpg" alt="">
-							<div class="overlay">
-								<h6 class="overlay__h">Local online <br> store rethinking</h6>
-								<span class="overlay__sub">View on Behance</span>
-							</div>
-						</a>
-					</article>
-					<article class="allwork__item">
-						<a href="">
-							<img src="~assets/images/work/all/diphot.jpg" alt="">
-							<div class="overlay">
-								<h6 class="overlay__h">Institutional website for <br> a local company</h6>
-								<span class="overlay__sub">View on Dribbble</span>
-							</div>
-						</a>
-					</article>
+	<transition appear="true">
+		<main appear="true">
+			<Nav/>
+			<section class="hero">
+			  <div class="container">
+			    <div class="row">
+			      <div class="col-md-6">
+			        <h1 class="hero__h">
+			          Work<small>.</small>
+			        </h1>
+			        <h2 class="hero__sub">A few pieces of work I've been putting together throughout the entire 2018.</h2>
+			      </div>
+			    </div>
+			  </div>
+			</section>
+			<section class="section work">
+			  <div class="container">
+			    <div class="row align-items-center">
+			      <div class="col-md-5">
+			        <span class="sectionContent__preH">Ecommerce</span>
+			        <h3 class="sectionContent__h">Vendexa</h3>
+			        <p class="sectionContent__p">Bringing a new company to life, a story told on Behance.</p>
+			        <a href="https://www.behance.net/gallery/67367757/Vendexa-Ecommerce" target="_blank" class="btn">Read case study</a>
+			      </div>
+			      <div class="col-md-7">
+			        <img src="~assets/images/work/vendexa/vendexa-mock.png" alt="Vendexa - Ecommerce">
+			      </div>  
+			    </div>
+			  </div>
+			</section>
+			<section class="section work">
+			  <div class="container">
+			    <div class="row align-items-center">
+			      <div class="col-md-5">
+			        <span class="sectionContent__preH">Mobile app</span>
+			        <h3 class="sectionContent__h">Legister</h3>
+			        <p class="sectionContent__p">From basic idea to concept. From challenge, all the way to a store.</p>
+			        <nuxt-link to="" class="btn disabled">Coming soon</nuxt-link>
+			      </div>
+			      <div class="col-md-7">
+			        <img src="~assets/images/work/legister/legister-mock.png" alt="Legister - Mobile App">
+			      </div>  
+			    </div>
+			  </div>
+			</section>
+			<section class="section">
+				<div class="container">
+					<span class="sectionContent__preH">The rest</span>
+					<h3 class="sectionContent__h">All my work</h3>
+					<div class="allwork">
+						<article class="allwork__item">
+							<a href="">
+								<img src="~assets/images/work/all/adigitalboy.jpg" alt="">
+								<div class="overlay">
+									<h6 class="overlay__h">A personal website, for <br> a personal friend</h6>
+									<span class="overlay__sub">View on Dribbble</span>
+								</div>
+							</a>
+						</article>
+						<article class="allwork__item">
+							<a href="https://dribbble.com/shots/5506371-FAQ-page-Mobile-App" target="_blank">
+								<img src="~assets/images/work/all/faq.jpg" alt="">
+								<div class="overlay">
+									<h6 class="overlay__h">FAQ page for <br> a mobile app</h6>
+									<span class="overlay__sub">View on Dribbble</span>
+								</div>
+							</a>
+						</article>
+						<article class="allwork__item">
+							<a href="https://dribbble.com/shots/4927239-Online-course-landing-page" target="_blank">
+								<img src="~assets/images/work/all/biffi.jpg" alt="">
+								<div class="overlay">
+									<h6 class="overlay__h">Online course & <br> landing page</h6>
+									<span class="overlay__sub">View on Dribbble</span>
+								</div>
+							</a>
+						</article>
+						<article class="allwork__item">
+							<a href="https://dribbble.com/shots/5104123-Vendexa-launched-Online-store" target="_blank">
+								<img src="~assets/images/work/all/vendexa.jpg" alt="">
+								<div class="overlay">
+									<h6 class="overlay__h">Launching an <br> Online Store</h6>
+									<span class="overlay__sub">View on Dribbble</span>
+								</div>
+							</a>
+						</article>
+						<article class="allwork__item">
+							<a href="https://www.behance.net/gallery/67291259/Palmoutlet-Online-Store-Redesign" target="_blank">
+								<img src="~assets/images/work/all/palm.jpg" alt="">
+								<div class="overlay">
+									<h6 class="overlay__h">Local online <br> store rethinking</h6>
+									<span class="overlay__sub">View on Behance</span>
+								</div>
+							</a>
+						</article>
+						<article class="allwork__item">
+							<a href="https://dribbble.com/shots/5087734-Diphot-Home-Page" target="_blank">
+								<img src="~assets/images/work/all/diphot.jpg" alt="">
+								<div class="overlay">
+									<h6 class="overlay__h">Institutional website for <br> a local company</h6>
+									<span class="overlay__sub">View on Dribbble</span>
+								</div>
+							</a>
+						</article>
+					</div>
 				</div>
-			</div>
-		</section>
-		<Contact/>
-	</main>
+			</section>
+			<Contact/>
+		</main>
+	</transition>
 </template>
 
 <script>

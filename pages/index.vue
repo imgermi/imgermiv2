@@ -21,7 +21,7 @@
             <span class="sectionContent__preH">Featured work</span>
             <h3 class="sectionContent__h">Legister</h3>
             <p class="sectionContent__p">From basic idea to concept. From challenge, all the way to a store.</p>
-            <nuxt-link to="" class="btn">Read case study</nuxt-link>
+            <nuxt-link to="" class="btn disabled">Coming soon</nuxt-link>
           </div>
           <div class="col-md-7">
             <img src="~assets/images/work/legister/legister-mock.png" alt="Legister - Mobile App">
@@ -57,20 +57,20 @@
             <span class="sectionContent__preH">I'm try writer</span>
             <h3 class="sectionContent__h">Notes</h3>
             <p class="sectionContent__p">Yes, that's right. I don't consider myself a writer, that would be kind of too much. But I just enjoy writing a lot. It's part of my daily routine, and ocassionaly I like writing a piece of blog in which I share a few thoughts on a specific subject.</p>
-            <nuxt-link to="" class="btn">See more</nuxt-link>
+            <nuxt-link to="/notes" class="btn">See more</nuxt-link>
           </div>
           <div class="col-md-4 offset-md-2">
             <article class="notelink">
-              <h6 class="notelink__h">It's always someone else's fault, I'm just a perfect designer</h6>
-              <a href="" class="notelink__btn">Read on medium</a>
+              <a href="https://medium.com/@imgermi/fuck-the-tools-time-to-start-focusing-on-solutions-cbd955030d7e" target="_blank">
+                <h6 class="notelink__h">Let the tools go: time to start focusing on solutions</h6>
+                <a class="notelink__btn">Read on medium</a>
+              </a>
             </article>
             <article class="notelink">
-              <h6 class="notelink__h">Let the tools go: time to start focusing on solutions</h6>
-              <a href="" class="notelink__btn">Read on medium</a>
-            </article>
-            <article class="notelink">
-              <h6 class="notelink__h">Learning by doing: acquiring skills when the situation demands it</h6>
-              <a href="" class="notelink__btn">Read on medium</a>
+              <a href="https://medium.com/weland-agency/learning-by-doing-acquiring-skills-when-the-situation-demands-it-5f4f2cbc7bb0" target="_blank">
+                <h6 class="notelink__h">Learning by doing: acquiring skills when the situation demands it</h6>
+                <a class="notelink__btn">Read on medium</a>
+              </a>
             </article>
           </div>
         </div>
@@ -115,5 +115,12 @@ export default {
         position: absolute
         left: 50%
         transform: translateX(-50%)
-        bottom: 0
+        top: calc(100% - 150px)
+        transition: all 350ms 100ms ease-in
+
+  .page-leave-active, .page-enter-active
+    .hero
+      &.big
+        &:before
+          height: 0
 </style>
