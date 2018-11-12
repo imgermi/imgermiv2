@@ -4,7 +4,7 @@
     <section class="hero big">
       <div class="container">
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-xl-5 col-lg-6 col-md-8">
             <h1 class="hero__h">
               <span>Hello,</span>
               I'm Germi<small>.</small>
@@ -17,13 +17,13 @@
     <section class="section work">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-5">
+          <div class="col-md-6 col-lg-5">
             <span class="sectionContent__preH">Featured work</span>
             <h3 class="sectionContent__h">Legister</h3>
             <p class="sectionContent__p">From basic idea to concept. From challenge, all the way to a store.</p>
             <nuxt-link to="" class="btn disabled">Coming soon</nuxt-link>
           </div>
-          <div class="col-md-7">
+          <div class="col-md-6 col-lg-7">
             <img src="~assets/images/work/legister/legister-mock.png" alt="Legister - Mobile App">
           </div>  
         </div>
@@ -85,10 +85,18 @@ import Nav from '~/components/Nav.vue'
 import Contact from '~/components/Contact.vue'
 
 export default {
+  head () {
+    return {
+      title: 'Juan Martín Germano - Product Designer',
+      meta: [
+        { hid: 'description', name: 'description', content: 'About our company Nuxt.js ' }
+      ]
+    }
+  },
   components: {
     Nav,
     Contact
-  }
+  },
 };
 </script>
 

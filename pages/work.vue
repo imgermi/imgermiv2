@@ -1,6 +1,6 @@
 <template>
-	<transition appear="true">
-		<main appear="true">
+	<transition>
+		<main>
 			<Nav/>
 			<section class="hero">
 			  <div class="container">
@@ -116,10 +116,18 @@ import Nav from '~/components/Nav.vue'
 import Contact from '~/components/Contact.vue'
 
 export default {
+  head () {
+    return {
+      title: 'Work | Juan Martín Germano',
+      meta: [
+        { hid: 'description', name: 'description', content: 'About our company Nuxt.js ' }
+      ]
+    }
+  },
   components: {
     Nav,
     Contact
-  }
+  },
 };
 </script>
 

@@ -71,10 +71,18 @@ import Nav from '~/components/Nav.vue'
 import Contact from '~/components/Contact.vue'
 
 export default {
+  head () {
+    return {
+      title: 'Notes | Juan Martín Germano',
+      meta: [
+        { hid: 'description', name: 'description', content: 'About our company Nuxt.js ' }
+      ]
+    }
+  },
   components: {
     Nav,
     Contact
-  }
+  },
 };
 </script>
 
