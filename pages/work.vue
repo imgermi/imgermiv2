@@ -5,7 +5,7 @@
 			<section class="hero">
 			  <div class="container">
 			    <div class="row">
-			      <div class="col-md-6">
+			      <div class="col-xl-5 col-lg-7 col-md-8">
 			        <h1 class="hero__h">
 			          Work<small>.</small>
 			        </h1>
@@ -138,6 +138,10 @@ export default {
 		&__item
 			width: 33.3%
 			position: relative
+			@media(max-width: 991px)
+				width: 50%
+			@media(max-width: 767px)
+				width: 100%
 			&:hover
 				.overlay
 					opacity: 1

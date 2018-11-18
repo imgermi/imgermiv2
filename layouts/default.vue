@@ -17,6 +17,7 @@
     background: #27272F
     font-family: 'Montserrat', sans-serif
     transition: all 200ms ease-in
+    overflow-x: hidden
 
   .page-enter-active, .page-leave-active 
     transition: all .35s .20s ease-out
@@ -62,19 +63,31 @@
     color: #f5f5f5
     line-height: 66px
     font-family: 'Lora', serif
+    @media(max-width: 991px)
+      font-size: 72px
+      line-height: 60px
+    @media(max-width: 479px)
+      font-size: 60px
+      line-height: 48px
   .hero__h
     margin: 0 0 25px
     small
       color: #C8B382
     span
       display: block
-      font-size: 42.4993px
+      font-size: 0.5em
 
   .hero__sub
     font-weight: 300
     line-height: 37px
     font-size: 25.3691px
     color: rgba(245, 245, 245, 0.5)
+    @media(max-width: 991px)
+      font-size: 24px
+      line-height: 35px
+    @media(max-width: 479px)
+      font-size: 20px
+      line-height: 30px
 
   .sectionContent__preH
     display: block
@@ -93,6 +106,11 @@
     font-weight: 600
     line-height: normal
     margin: 0 0 25px
+    @media(max-width: 991px)
+      margin-bottom: 20px
+      font-size: 48px
+    @media(max-width: 479px)
+      font-size: 38px
 
   .sectionContent__p
     color: rgba(245, 245, 245, 0.5)
@@ -100,9 +118,15 @@
     font-weight: 300
     line-height: 36px
     margin: 0 0 25px
+    @media(max-width: 479px)
+      font-size: 18px
+      line-height: 28px
     strong
       display: block
       font-weight: 700
+      @media(max-width: 991px)
+        font-size: 18px
+        line-height: 28px
 
   .sectionContent_read
     font-size: 18px
@@ -116,12 +140,16 @@
     background: #38434F
     padding: 275px 0 80px
     margin-bottom: 50px
+    @media(max-width: 479px)
+      padding-bottom: 50px
 
   .section
     padding: 50px 0
 
   .notelink
     margin-bottom: 30px
+    @media(max-width: 767px)
+      margin-bottom: 40px
     > a
       display: block
       text-decoration: none
@@ -134,6 +162,9 @@
       font-size: 23px
       color: rgba(245, 245, 245, 0.9)
       margin: 0 0 10px
+      @media(max-width: 991px)
+        font-size: 20px
+        line-height: normal  
     &__btn
       font-weight: 300
       line-height: 22px
@@ -147,6 +178,8 @@
       transition: all 300ms ease-in-out
       text-decoration: none
       display: inline-block
+      @media(max-width: 991px)
+        font-size: 14px
       &:hover
         color: #C8B382
         &:after
@@ -180,6 +213,13 @@
         @media(min-width: 1300px)
           right: -30%
           max-width: 1000px
+        @media(max-width: 767px)
+          max-width: 500px
+          right: -60%
+          margin-top: -35px
+      @media(max-width: 767px)
+        .btn
+          margin-bottom: 0px
     &.about
       .avatar
         max-width: 200px

@@ -21,6 +21,9 @@
     padding-top: 45px
     z-index: 10
     transition: all 200ms ease-out
+    overflow: auto
+    padding-bottom: 25px
+    -webkit-mask-image: linear-gradient(90deg,transparent,#000 20px,#000 calc(100% - 20px),transparent)
     nav
       display: flex
       a
@@ -38,6 +41,9 @@
           padding-left: 0
         &:hover
           color: #C8B382
+        @media(max-width: 479px)
+          // font-size: 13.5px
+          // padding: 0 14px
 
   .page-leave-active, .page-enter-active
     header

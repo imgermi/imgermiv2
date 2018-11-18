@@ -42,7 +42,7 @@
           </div>
           <div class="col-md-5 offset-md-1">
             <p class="sectionContent_read">The day I saved my first .html file everything changed. It sounds stupid, but as soon as I realised that I could make a website myself, and I could make it look just like I wanted to, I became really exited.</p>
-            <p class="sectionContent_read">It didn't take me long to fall in love with web & overall interface design. Anyway, lately I've been mostly focusing on reading books, so I'll probably just stop writing shit about me and get to learn a bit more.</p>
+            <p class="sectionContent_read">It didn't take me long to fall in love with web & overall interface design. Anyway, lately I've been mostly focusing on reading books, so I'll probably just stop writing ego-things about me and get to learn a bit more.</p>
           </div>
           <div class="col-12 text-center">
             <img src="~assets/images/juan-martin-germano-avatar.png" class="avatar" alt="Juan Martín Germano - Product Designer">
@@ -50,16 +50,16 @@
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section notes">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-5">
+          <div class="col-lg-6 col-xl-5">
             <span class="sectionContent__preH">I'm try writer</span>
             <h3 class="sectionContent__h">Notes</h3>
             <p class="sectionContent__p">Yes, that's right. I don't consider myself a writer, that would be kind of too much. But I just enjoy writing a lot. It's part of my daily routine, and ocassionaly I like writing a piece of blog in which I share a few thoughts on a specific subject.</p>
             <nuxt-link to="/notes" class="btn">See more</nuxt-link>
           </div>
-          <div class="col-md-4 offset-md-2">
+          <div class="col-lg-5 offset-lg-1 col-xl-4 offset-xl-2">
             <article class="notelink">
               <a href="https://medium.com/@imgermi/fuck-the-tools-time-to-start-focusing-on-solutions-cbd955030d7e" target="_blank">
                 <h6 class="notelink__h">Let the tools go: time to start focusing on solutions</h6>
@@ -109,11 +109,14 @@ export default {
       background-size: cover
       background-position: center center
       background-repeat: no-repeat
-      background-image: url('~assets/images/juan-martin-germano.jpg')
+      background-image: url('~assets/images/hero-v2.jpg')
       -webkit-appearance: none
       box-shadow: inset 0 0 0 955px rgba(39,39,47,0.8)
       position: relative
       padding-bottom: 240px
+      @media(max-width: 479px)
+        padding-top: 300px
+        padding-bottom: 200px
       &:before
         content: ''
         display: block
@@ -125,10 +128,18 @@ export default {
         transform: translateX(-50%)
         top: calc(100% - 150px)
         transition: all 350ms 100ms ease-in
+        @media(max-width: 991px)
+          height: 100px
+          top: calc(100% - 100px)
 
   .page-leave-active, .page-enter-active
     .hero
       &.big
         &:before
           height: 0
+
+  .section.notes
+    @media(max-width: 991px)
+      .btn
+        margin-bottom: 35px
 </style>

@@ -3,12 +3,12 @@
 		<div class="container">
 			<article class="footerContact">
 				<div class="row align-items-end">
-					<div class="col-md-5">
+					<div class="col-lg-6 col-xl-5">
 						<span class="sectionContent__preH">I'm reachable</span>
 						<h3 class="sectionContent__h">Contact</h3>
 						<p class="sectionContent__p">You can reach out through any medium you prefer. If you don't want to reach out, visit my Dribbble so I can get more views. That's what this is all about, right?</p>
 					</div>
-					<div class="col-md-3 offset-md-4">
+					<div class="col-md-5 col-lg-4 offset-lg-2 col-xl-3 offset-xl-4">
 						<a href="https://dribbble.com/imgermi" target="_blank" class="btn btn__xl">Visit Dribbble</a>
 					</div>
 				</div>
@@ -33,6 +33,9 @@
 		padding: 70px 0 45px
 		position: relative
 		margin-top: 200px
+		@media(max-width: 991px)
+			padding-bottom: 50px
+			margin-top: 150px
 		&:before
 			content: ''
 			display: block
@@ -47,11 +50,18 @@
 	.footerContact
 		.sectionContent__p
 			margin: 0
+			@media(max-width: 991px)
+				margin-bottom: 25px
 
 	.footerSocial
 		padding-top: 55px
 		display: flex
 		justify-content: space-between
+		@media(max-width: 991px)
+			display: block
+			padding-top: 35px
+		@media(max-width: 767px)
+			text-align: center
 		&__email
 			font-family: 'Lora', serif
 			font-size: 16px
@@ -64,8 +74,18 @@
 		&__items
 			display: flex
 			list-style: none
+			@media(max-width: 991px)
+				padding-top: 15px
+			@media(max-width: 767px)
+				display: block
 			li
 				margin: 0 20px
+				@media(max-width: 991px)
+					margin: 0 16px
+					&:first-of-type
+						margin-left: 0
+				@media(max-width: 767px)
+					margin: 10px 0
 				&:last-of-type
 					margin-right: 0
 				a
