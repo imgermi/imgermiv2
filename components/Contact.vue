@@ -9,7 +9,7 @@
 						<p class="sectionContent__p">You can reach out through any medium you prefer. If you don't want to reach out, visit my Dribbble so I can get more views. That's what this is all about, right?</p>
 					</div>
 					<div class="col-md-5 col-lg-4 offset-lg-2 col-xl-3 offset-xl-4">
-						<a href="https://dribbble.com/imgermi" target="_blank" class="btn btn__xl">Visit Dribbble</a>
+						<a href="https://dribbble.com/imgermi" target="_blank" class="btn btn__xl">Give me views</a>
 					</div>
 				</div>
 			</article>
