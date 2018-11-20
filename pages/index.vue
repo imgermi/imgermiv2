@@ -14,7 +14,7 @@
         </div>
       </div>
     </section>
-    <section class="section work">
+    <section class="section work" data-delighter>
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-5">
@@ -117,6 +117,7 @@ export default {
       @media(max-width: 479px)
         padding-top: 300px
         padding-bottom: 200px
+        background-image: url('~assets/images/hero-v2-mobile.jpg')
       &:before
         content: ''
         display: block

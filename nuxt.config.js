@@ -23,7 +23,7 @@ module.exports = {
       { rel: 'manifest', href: '/site.webmanifest' },
       { rel: 'mask-icon', color: '#c8b382', href: '/safari-pinned-tab.svg' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Montserrat:300,700+Lora:700' }
-    ]
+    ],
   },
 
   /*
@@ -37,7 +37,6 @@ module.exports = {
   css: [
     'css/bootstrap.css',
   ],
-
   /*
   ** Plugins to load before mounting the App
   */

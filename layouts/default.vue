@@ -69,6 +69,8 @@
     @media(max-width: 479px)
       font-size: 60px
       line-height: 48px
+    @media(max-width: 340px)
+      font-size: 55px
   .hero__h
     margin: 0 0 25px
     small
@@ -205,6 +207,10 @@
   .section
     &.work
       overflow: hidden
+      &.delighter
+        transition: all .3s ease-out
+        transform: translateX(-100%)
+        opacity: 0
       img
         max-width: 860px
         display: block
@@ -217,6 +223,12 @@
           max-width: 500px
           right: -60%
           margin-top: -35px
+        @media(max-width: 575px)
+          margin-top: 45px
+          right: -40%
+          max-width: 400px
+        @media(max-width: 400px)
+          right: -25%
       @media(max-width: 767px)
         .btn
           margin-bottom: 0px
