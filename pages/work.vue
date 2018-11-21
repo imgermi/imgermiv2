@@ -5,7 +5,7 @@
 			<section class="hero">
 			  <div class="container">
 			    <div class="row">
-			      <div class="col-xl-5 col-lg-7 col-md-8">
+			      <div class="col-xl-5 col-lg-7 col-md-8" data-aos="fade">
 			        <h1 class="hero__h">
 			          Work<small>.</small>
 			        </h1>
@@ -17,14 +17,14 @@
 			<section class="section work">
 			  <div class="container">
 			    <div class="row align-items-center">
-			      <div class="col-md-5">
+			      <div class="col-md-5" data-aos="fade">
 			        <span class="sectionContent__preH">Ecommerce</span>
 			        <h3 class="sectionContent__h">Vendexa</h3>
 			        <p class="sectionContent__p">Bringing a new company to life, a story told on Behance.</p>
 			        <a href="https://www.behance.net/gallery/67367757/Vendexa-Ecommerce" target="_blank" class="btn">Read case study</a>
 			      </div>
 			      <div class="col-md-7">
-			        <img src="~assets/images/work/vendexa/vendexa-mock.png" alt="Vendexa - Ecommerce">
+			        <img data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in" src="~assets/images/work/vendexa/vendexa-mock.png" alt="Vendexa - Ecommerce">
 			      </div>  
 			    </div>
 			  </div>
@@ -32,25 +32,25 @@
 			<section class="section work">
 			  <div class="container">
 			    <div class="row align-items-center">
-			      <div class="col-md-5">
+			      <div class="col-md-5" data-aos="fade">
 			        <span class="sectionContent__preH">Mobile app</span>
 			        <h3 class="sectionContent__h">Legister</h3>
 			        <p class="sectionContent__p">From basic idea to concept. From challenge, all the way to a store.</p>
 			        <nuxt-link to="" class="btn disabled">Coming soon</nuxt-link>
 			      </div>
 			      <div class="col-md-7">
-			        <img src="~assets/images/work/legister/legister-mock.png" alt="Legister - Mobile App">
+			        <img data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in" src="~assets/images/work/legister/legister-mock.png" alt="Legister - Mobile App">
 			      </div>  
 			    </div>
 			  </div>
 			</section>
 			<section class="section">
 				<div class="container">
-					<span class="sectionContent__preH">The rest</span>
-					<h3 class="sectionContent__h">All my work</h3>
+					<span class="sectionContent__preH" data-aos="fade">The rest</span>
+					<h3 class="sectionContent__h" data-aos="fade">All my work</h3>
 					<div class="allwork">
-						<article class="allwork__item">
-							<a href="">
+						<article class="allwork__item" data-aos="fade">
+							<a href="https://dribbble.com/shots/5582558-A-Digital-Boy-Personal-Website-Design-Code" target="_blank">
 								<img src="~assets/images/work/all/adigitalboy.jpg" alt="">
 								<div class="overlay">
 									<h6 class="overlay__h">A personal website, for <br> a personal friend</h6>
@@ -58,7 +58,7 @@
 								</div>
 							</a>
 						</article>
-						<article class="allwork__item">
+						<article class="allwork__item" data-aos="fade">
 							<a href="https://dribbble.com/shots/5506371-FAQ-page-Mobile-App" target="_blank">
 								<img src="~assets/images/work/all/faq.jpg" alt="">
 								<div class="overlay">
@@ -67,7 +67,7 @@
 								</div>
 							</a>
 						</article>
-						<article class="allwork__item">
+						<article class="allwork__item" data-aos="fade">
 							<a href="https://dribbble.com/shots/4927239-Online-course-landing-page" target="_blank">
 								<img src="~assets/images/work/all/biffi.jpg" alt="">
 								<div class="overlay">
@@ -76,7 +76,7 @@
 								</div>
 							</a>
 						</article>
-						<article class="allwork__item">
+						<article class="allwork__item" data-aos="fade">
 							<a href="https://dribbble.com/shots/5104123-Vendexa-launched-Online-store" target="_blank">
 								<img src="~assets/images/work/all/vendexa.jpg" alt="">
 								<div class="overlay">
@@ -85,7 +85,7 @@
 								</div>
 							</a>
 						</article>
-						<article class="allwork__item">
+						<article class="allwork__item" data-aos="fade">
 							<a href="https://www.behance.net/gallery/67291259/Palmoutlet-Online-Store-Redesign" target="_blank">
 								<img src="~assets/images/work/all/palm.jpg" alt="">
 								<div class="overlay">
@@ -94,7 +94,7 @@
 								</div>
 							</a>
 						</article>
-						<article class="allwork__item">
+						<article class="allwork__item" data-aos="fade">
 							<a href="https://dribbble.com/shots/5087734-Diphot-Home-Page" target="_blank">
 								<img src="~assets/images/work/all/diphot.jpg" alt="">
 								<div class="overlay">
@@ -120,7 +120,7 @@ export default {
     return {
       title: 'Work | Juan Martín Germano',
       meta: [
-        { hid: 'description', name: 'description', content: 'About our company Nuxt.js ' }
+        { hid: 'description', name: 'description', content: 'A few pieces of work I\'ve been putting together throughout the entire 2018.' }
       ]
     }
   },

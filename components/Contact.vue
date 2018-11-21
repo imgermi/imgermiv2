@@ -1,7 +1,7 @@
 <template>
 	<footer id="contact">
 		<div class="container">
-			<article class="footerContact">
+			<article class="footerContact" data-aos="fade">
 				<div class="row align-items-end">
 					<div class="col-lg-6 col-xl-5">
 						<span class="sectionContent__preH">I'm reachable</span>
@@ -13,7 +13,7 @@
 					</div>
 				</div>
 			</article>
-			<article class="footerSocial">
+			<article class="footerSocial" data-aos="fade">
 				<a class="footerSocial__email" href="mailto:juanmartingermano@gmail.com">juanmartingermano@gmail.com</a>
 				<ul class="footerSocial__items">
 					<li><a href="https://twitter.com/imgermi" target="_blank">Twitter</a></li>

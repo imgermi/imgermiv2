@@ -5,6 +5,7 @@
 </template>
 
 <style lang="sass">
+
   ::-moz-selection
     background: #C8B382
   ::selection

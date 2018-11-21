@@ -5,7 +5,7 @@
         <nuxt-link to="/">About</nuxt-link>
         <nuxt-link to="/work">Work</nuxt-link>
         <nuxt-link to="/notes">Notes</nuxt-link>
-        <a href="#contact">Contact</a>
+        <a href="#" v-scroll-to="'#contact'">Contact</a>
       </nav>
     </div>
   </header>

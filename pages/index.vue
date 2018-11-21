@@ -4,7 +4,7 @@
     <section class="hero big">
       <div class="container">
         <div class="row">
-          <div class="col-xl-5 col-lg-6 col-md-8">
+          <div class="col-xl-5 col-lg-6 col-md-8" data-aos="fade">
             <h1 class="hero__h">
               <span>Hello,</span>
               I'm Germi<small>.</small>
@@ -14,38 +14,38 @@
         </div>
       </div>
     </section>
-    <section class="section work" data-delighter>
+    <section class="section work">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-6 col-lg-5">
+          <div class="col-md-6 col-lg-5" data-aos="fade">
             <span class="sectionContent__preH">Featured work</span>
             <h3 class="sectionContent__h">Legister</h3>
             <p class="sectionContent__p">From basic idea to concept. From challenge, all the way to a store.</p>
             <nuxt-link to="" class="btn disabled">Coming soon</nuxt-link>
           </div>
           <div class="col-md-6 col-lg-7">
-            <img src="~assets/images/work/legister/legister-mock.png" alt="Legister - Mobile App">
+            <img data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in" src="~assets/images/work/legister/legister-mock.png" alt="Legister - Mobile App">
           </div>  
         </div>
       </div>
     </section>
-    <section class="section about">
+    <section class="section about" id="about">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade">
             <span class="sectionContent__preH">I'm person</span>
             <h3 class="sectionContent__h">About me</h3>
             <p class="sectionContent__p">
               Dear reader,
-              <strong>My name is Juan Martín Germano. I'm a designer based in Buenos Aires, and for the past 3 years I've been focused on building a business, designing interfaces, building products, and helping clients achieving a solution. Well, that actually sounds way too cool. I'm just a person having fun while learning.</strong>
+              <strong>My name is Juan Martín Germano. I'm a designer based in Buenos Aires, and for the past 3 years I've been focused on designing websites and apps, building products and helping clients achieving a solution, and creating an agency with my best friend. Well, that actually sounds way too cool. I'm just a person having fun while learning.</strong>
             </p>
           </div>
-          <div class="col-md-5 offset-md-1">
+          <div class="col-md-5 offset-md-1" data-aos="fade">
             <p class="sectionContent_read">The day I saved my first .html file everything changed. It sounds stupid, but as soon as I realised that I could make a website myself, and I could make it look just like I wanted to, I became really exited.</p>
             <p class="sectionContent_read">It didn't take me long to fall in love with web & overall interface design. Anyway, lately I've been mostly focusing on reading books, so I'll probably just stop writing ego-things about me and get to learn a bit more.</p>
           </div>
           <div class="col-12 text-center">
-            <img src="~assets/images/juan-martin-germano-avatar.png" class="avatar" alt="Juan Martín Germano - Product Designer">
+            <img data-aos="fade" src="~assets/images/juan-martin-germano-avatar.png" class="avatar" alt="Juan Martín Germano - Product Designer">
           </div>
         </div>
       </div>
@@ -53,20 +53,20 @@
     <section class="section notes">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6 col-xl-5">
+          <div class="col-lg-6 col-xl-5" data-aos="fade">
             <span class="sectionContent__preH">I'm try writer</span>
             <h3 class="sectionContent__h">Notes</h3>
             <p class="sectionContent__p">Yes, that's right. I don't consider myself a writer, that would be kind of too much. But I just enjoy writing a lot. It's part of my daily routine, and ocassionaly I like writing a piece of blog in which I share a few thoughts on a specific subject.</p>
             <nuxt-link to="/notes" class="btn">See more</nuxt-link>
           </div>
           <div class="col-lg-5 offset-lg-1 col-xl-4 offset-xl-2">
-            <article class="notelink">
+            <article class="notelink" data-aos="fade">
               <a href="https://medium.com/@imgermi/fuck-the-tools-time-to-start-focusing-on-solutions-cbd955030d7e" target="_blank">
                 <h6 class="notelink__h">Let the tools go: time to start focusing on solutions</h6>
                 <a class="notelink__btn">Read on medium</a>
               </a>
             </article>
-            <article class="notelink">
+            <article class="notelink" data-aos="fade">
               <a href="https://medium.com/weland-agency/learning-by-doing-acquiring-skills-when-the-situation-demands-it-5f4f2cbc7bb0" target="_blank">
                 <h6 class="notelink__h">Learning by doing: acquiring skills when the situation demands it</h6>
                 <a class="notelink__btn">Read on medium</a>
@@ -89,7 +89,7 @@ export default {
     return {
       title: 'Juan Martín Germano - Product Designer',
       meta: [
-        { hid: 'description', name: 'description', content: 'About our company Nuxt.js ' }
+        { hid: 'description', name: 'description', content: 'Designer based in Buenos Aires. I help startups and entrepreneurs scaling visibility through Product Design and Strategy.' }
       ]
     }
   },

@@ -4,7 +4,7 @@
 		<section class="hero">
 		  <div class="container">
 		    <div class="row">
-		      <div class="col-xl-5 col-lg-6 col-md-8">
+		      <div class="col-xl-5 col-lg-6 col-md-8" data-aos="fade">
 		        <h1 class="hero__h">
 		          Notes<small>.</small>
 		        </h1>
@@ -17,9 +17,9 @@
 			<div class="container">
 				<div class="row align-items-center">
 				  <div class="order-md-2 col-md-5 offset-md-1">
-			  		<img src="~assets/images/notes/perfect-designer.jpg" class="img-responsive" alt="Vendexa - Ecommerce">
+			  		<img data-aos="fade" src="~assets/images/notes/perfect-designer.jpg" class="img-responsive" alt="Vendexa - Ecommerce">
 				  </div> 
-				  <div class="col-md-6">
+				  <div class="col-md-6" data-aos="fade">
 				    <span class="sectionContent__preH">Featured note</span>
 				    <h3 class="sectionContent__h">It's always someone else's fault, I'm just a perfect designer</h3>
 				    <a href="https://medium.com/@imgermi/its-always-someone-else-s-fault-i-m-just-a-perfect-designer-14c37d615102" target="_blank" class="btn">Read on Medium</a>
@@ -29,11 +29,11 @@
 		</section>
 		<section class="section">
 			<div class="container">
-				<span class="sectionContent__preH">The rest</span>
-				<h3 class="sectionContent__h">All my notes</h3>
+				<span class="sectionContent__preH" data-aos="fade">The rest</span>
+				<h3 class="sectionContent__h" data-aos="fade">All my notes</h3>
 				<div class="row">
 					<div class="col-md-6 col-lg-4">
-						<article class="notelink">
+						<article class="notelink" data-aos="fade">
 							<a href="https://medium.com/@imgermi/how-i-got-my-first-clients-as-a-junior-freelance-designer-d621a753ada8" target="_blank">
 								<img src="~assets/images/notes/first-clients-designer.jpg" class="img-responsive" alt="">
 								<h6 class="notelink__h">How I got my first clients as a junior freelance designer</h6>
@@ -42,7 +42,7 @@
 						</article>
 					</div>
 					<div class="col-md-6 col-lg-4">
-						<article class="notelink">
+						<article class="notelink" data-aos="fade">
 							<a href="https://medium.com/weland-agency/learning-by-doing-acquiring-skills-when-the-situation-demands-it-5f4f2cbc7bb0" target="_blank">
 								<img src="~assets/images/notes/learning-by-doing.jpg" class="img-responsive" alt="">
 								<h6 class="notelink__h">Learning by doing: acquiring skills when the situation demands it</h6>
@@ -51,7 +51,7 @@
 						</article>
 					</div>
 					<div class="col-md-6 col-lg-4">
-						<article class="notelink">
+						<article class="notelink" data-aos="fade">
 							<a href="https://medium.com/@imgermi/fuck-the-tools-time-to-start-focusing-on-solutions-cbd955030d7e" target="_blank">
 								<img src="~assets/images/notes/let-tools-go.jpg" class="img-responsive" alt="">
 								<h6 class="notelink__h">Let the tools go: time to start focusing on solutions</h6>
@@ -75,7 +75,7 @@ export default {
     return {
       title: 'Notes | Juan Martín Germano',
       meta: [
-        { hid: 'description', name: 'description', content: 'About our company Nuxt.js ' }
+        { hid: 'description', name: 'description', content: 'Writing is part of my daily routine. I\'m not a blogger, but I ocassionaly put together a few words.' }
       ]
     }
   },
