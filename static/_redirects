@@ -1,0 +1,5 @@
+# Redirect default Netlify subdomain to primary domain
+https://imgermiv2.netlify.com/* https://imgermi.com/:splat 301!
+
+https://imgermi.com/about* https://imgermi.com/:splat 301!
+https://imgermi.com/path* https://imgermi.com/:splat 301!
