@@ -13,7 +13,8 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial scale=1' },
       { name: 'msapplication-TileColor', content: '#c8b382' },
       { name: 'theme-color', content: '#c8b382' },
-      { hid: 'description', name: 'description', content: 'Meta description' }
+      { hid: 'description', name: 'description', content: 'Meta description' },
+      { name: 'google-site-verification', content: 'nIZHKw4qeDLe6fDDzkdCgyZ5pclkp-U45xqq-6LumMA' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -46,6 +47,7 @@ module.exports = {
   plugins: [
     '~plugins/vue-scrollto.js',
     { src: "~/plugins/aos", ssr: false },
+    { src: '~plugins/ga.js', ssr: false }
   ],
 
   /*
