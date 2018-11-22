@@ -24,7 +24,7 @@
             <nuxt-link to="" class="btn disabled">Coming soon</nuxt-link>
           </div>
           <div class="col-md-6 col-lg-7">
-            <img data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in" src="~assets/images/work/legister/legister-mock.png" alt="Legister - Mobile App">
+            <img data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in" src="~assets/images/work/legister/legister-mock.png?v1" alt="Legister - Mobile App">
           </div>  
         </div>
       </div>
@@ -45,7 +45,7 @@
             <p class="sectionContent_read">It didn't take me long to fall in love with web & overall interface design. Anyway, lately I've been mostly focusing on reading books, so I'll probably just stop writing ego-things about me and get to learn a bit more.</p>
           </div>
           <div class="col-12 text-center">
-            <img data-aos="fade" src="~assets/images/juan-martin-germano-avatar.png" class="avatar" alt="Juan Martín Germano - Product Designer">
+            <img data-aos="fade" src="~assets/images/juan-martin-germano-avatar.png?v1" class="avatar" alt="Juan Martín Germano - Product Designer">
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@ export default {
       background-size: cover
       background-position: center center
       background-repeat: no-repeat
-      background-image: url('~assets/images/hero-v2.jpg')
+      background-image: url('~assets/images/hero-v2?v1.jpg')
       -webkit-appearance: none
       box-shadow: inset 0 0 0 955px rgba(39,39,47,0.8)
       position: relative
@@ -117,7 +117,7 @@ export default {
       @media(max-width: 479px)
         padding-top: 300px
         padding-bottom: 200px
-        background-image: url('~assets/images/hero-v2-mobile.jpg')
+        background-image: url('~assets/images/hero-v2-mobile?v1.jpg')
       &:before
         content: ''
         display: block
