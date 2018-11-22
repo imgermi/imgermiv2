@@ -17,7 +17,7 @@
 			<div class="container">
 				<div class="row align-items-center">
 				  <div class="order-md-2 col-md-5 offset-md-1">
-			  		<img data-aos="fade" src="~assets/images/notes/perfect-designer?v1.jpg" class="img-responsive" alt="It's always someone else's fault, I'm just a perfect designer">
+			  		<img data-aos="fade" src="~assets/images/notes/perfect-designer.jpg?v1" class="img-responsive" alt="It's always someone else's fault, I'm just a perfect designer">
 				  </div> 
 				  <div class="col-md-6" data-aos="fade">
 				    <span class="sectionContent__preH">Featured note</span>
