@@ -109,7 +109,7 @@ export default {
       background-size: cover
       background-position: center center
       background-repeat: no-repeat
-      background-image: url('~assets/images/hero-v2?v1.jpg')
+      background-image: url('~assets/images/hero-v2.jpg?v1')
       -webkit-appearance: none
       box-shadow: inset 0 0 0 955px rgba(39,39,47,0.8)
       position: relative
@@ -117,7 +117,7 @@ export default {
       @media(max-width: 479px)
         padding-top: 300px
         padding-bottom: 200px
-        background-image: url('~assets/images/hero-v2-mobile?v1.jpg')
+        background-image: url('~assets/images/hero-v2-mobile.jpg?v1')
       &:before
         content: ''
         display: block
