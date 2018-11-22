@@ -17,7 +17,7 @@
 			<div class="container">
 				<div class="row align-items-center">
 				  <div class="order-md-2 col-md-5 offset-md-1">
-			  		<img data-aos="fade" src="~assets/images/notes/perfect-designer.jpg" class="img-responsive" alt="Vendexa - Ecommerce">
+			  		<img data-aos="fade" src="~assets/images/notes/perfect-designer?v1.jpg" class="img-responsive" alt="It's always someone else's fault, I'm just a perfect designer">
 				  </div> 
 				  <div class="col-md-6" data-aos="fade">
 				    <span class="sectionContent__preH">Featured note</span>
@@ -35,7 +35,7 @@
 					<div class="col-md-6 col-lg-4">
 						<article class="notelink" data-aos="fade">
 							<a href="https://medium.com/@imgermi/how-i-got-my-first-clients-as-a-junior-freelance-designer-d621a753ada8" target="_blank">
-								<img src="~assets/images/notes/first-clients-designer.jpg" class="img-responsive" alt="">
+								<img src="~assets/images/notes/first-clients-designer.jpg?v1" class="img-responsive" alt="How I got my first clients as a junior freelance designer">
 								<h6 class="notelink__h">How I got my first clients as a junior freelance designer</h6>
 								<a class="notelink__btn">Read on medium</a>
 							</a>
@@ -44,7 +44,7 @@
 					<div class="col-md-6 col-lg-4">
 						<article class="notelink" data-aos="fade">
 							<a href="https://medium.com/weland-agency/learning-by-doing-acquiring-skills-when-the-situation-demands-it-5f4f2cbc7bb0" target="_blank">
-								<img src="~assets/images/notes/learning-by-doing.jpg" class="img-responsive" alt="">
+								<img src="~assets/images/notes/learning-by-doing.jpg?v1" class="img-responsive" alt="Learning by doing: acquiring skills when the situation demands it">
 								<h6 class="notelink__h">Learning by doing: acquiring skills when the situation demands it</h6>
 								<a class="notelink__btn">Read on medium</a>
 							</a>
@@ -53,7 +53,7 @@
 					<div class="col-md-6 col-lg-4">
 						<article class="notelink" data-aos="fade">
 							<a href="https://medium.com/@imgermi/fuck-the-tools-time-to-start-focusing-on-solutions-cbd955030d7e" target="_blank">
-								<img src="~assets/images/notes/let-tools-go.jpg" class="img-responsive" alt="">
+								<img src="~assets/images/notes/let-tools-go.jpg?v1" class="img-responsive" alt="Let the tools go: time to start focusing on solutions">
 								<h6 class="notelink__h">Let the tools go: time to start focusing on solutions</h6>
 								<a class="notelink__btn">Read on medium</a>
 							</a>
