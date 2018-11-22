@@ -24,7 +24,7 @@
 			        <a href="https://www.behance.net/gallery/67367757/Vendexa-Ecommerce" target="_blank" class="btn">Read case study</a>
 			      </div>
 			      <div class="col-md-7">
-			        <img data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in" src="~assets/images/work/vendexa/vendexa-mock.png" alt="Vendexa - Ecommerce">
+			        <img data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in" src="~assets/images/work/vendexa/vendexa-mock.png?v1" alt="Vendexa - Ecommerce">
 			      </div>  
 			    </div>
 			  </div>
@@ -39,7 +39,7 @@
 			        <nuxt-link to="" class="btn disabled">Coming soon</nuxt-link>
 			      </div>
 			      <div class="col-md-7">
-			        <img data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in" src="~assets/images/work/legister/legister-mock.png" alt="Legister - Mobile App">
+			        <img data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in" src="~assets/images/work/legister/legister-mock.png?v1" alt="Legister - Mobile App">
 			      </div>  
 			    </div>
 			  </div>
@@ -51,7 +51,7 @@
 					<div class="allwork">
 						<article class="allwork__item" data-aos="fade">
 							<a href="https://dribbble.com/shots/5582558-A-Digital-Boy-Personal-Website-Design-Code" target="_blank">
-								<img src="~assets/images/work/all/adigitalboy.jpg" alt="">
+								<img src="~assets/images/work/all/adigitalboy.jpg?v1" alt="A personal website, for a personal friend">
 								<div class="overlay">
 									<h6 class="overlay__h">A personal website, for <br> a personal friend</h6>
 									<span class="overlay__sub">View on Dribbble</span>
@@ -60,7 +60,7 @@
 						</article>
 						<article class="allwork__item" data-aos="fade">
 							<a href="https://dribbble.com/shots/5506371-FAQ-page-Mobile-App" target="_blank">
-								<img src="~assets/images/work/all/faq.jpg" alt="">
+								<img src="~assets/images/work/all/faq.jpg?v1" alt="FAQ page for a mobile app">
 								<div class="overlay">
 									<h6 class="overlay__h">FAQ page for <br> a mobile app</h6>
 									<span class="overlay__sub">View on Dribbble</span>
@@ -69,7 +69,7 @@
 						</article>
 						<article class="allwork__item" data-aos="fade">
 							<a href="https://dribbble.com/shots/4927239-Online-course-landing-page" target="_blank">
-								<img src="~assets/images/work/all/biffi.jpg" alt="">
+								<img src="~assets/images/work/all/biffi.jpg?v1" alt="Online course & landing page">
 								<div class="overlay">
 									<h6 class="overlay__h">Online course & <br> landing page</h6>
 									<span class="overlay__sub">View on Dribbble</span>
@@ -78,7 +78,7 @@
 						</article>
 						<article class="allwork__item" data-aos="fade">
 							<a href="https://dribbble.com/shots/5104123-Vendexa-launched-Online-store" target="_blank">
-								<img src="~assets/images/work/all/vendexa.jpg" alt="">
+								<img src="~assets/images/work/all/vendexa.jpg?v1" alt="Launching an Online Store">
 								<div class="overlay">
 									<h6 class="overlay__h">Launching an <br> Online Store</h6>
 									<span class="overlay__sub">View on Dribbble</span>
@@ -87,7 +87,7 @@
 						</article>
 						<article class="allwork__item" data-aos="fade">
 							<a href="https://www.behance.net/gallery/67291259/Palmoutlet-Online-Store-Redesign" target="_blank">
-								<img src="~assets/images/work/all/palm.jpg" alt="">
+								<img src="~assets/images/work/all/palm.jpg?v1" alt="Local online store rethinking">
 								<div class="overlay">
 									<h6 class="overlay__h">Local online <br> store rethinking</h6>
 									<span class="overlay__sub">View on Behance</span>
@@ -96,7 +96,7 @@
 						</article>
 						<article class="allwork__item" data-aos="fade">
 							<a href="https://dribbble.com/shots/5087734-Diphot-Home-Page" target="_blank">
-								<img src="~assets/images/work/all/diphot.jpg" alt="">
+								<img src="~assets/images/work/all/diphot.jpg?v1" alt="Institutional website for a local company">
 								<div class="overlay">
 									<h6 class="overlay__h">Institutional website for <br> a local company</h6>
 									<span class="overlay__sub">View on Dribbble</span>
