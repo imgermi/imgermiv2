@@ -9,7 +9,7 @@
 			        <h1 class="hero__h">
 			          Work<small>.</small>
 			        </h1>
-			        <h2 class="hero__sub">A few pieces of work I've been putting together throughout the entire 2018.</h2>
+			        <h2 class="hero__sub">A few samples of work I've been putting together throughout 2018.</h2>
 			      </div>
 			    </div>
 			  </div>
