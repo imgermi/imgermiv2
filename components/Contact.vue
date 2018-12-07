@@ -13,7 +13,7 @@
 					</div>
 				</div>
 			</article>
-			<article class="footerSocial" data-aos="fade">
+			<article class="footerSocial">
 				<a class="footerSocial__email" href="mailto:juanmartingermano@gmail.com">juanmartingermano@gmail.com</a>
 				<ul class="footerSocial__items">
 					<li><a href="https://twitter.com/imgermi" target="_blank">Twitter</a></li>
