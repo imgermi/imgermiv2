@@ -9,7 +9,7 @@
               <span>Hello,</span>
               I'm Germi<small>.</small>
             </h1>
-            <h2 class="hero__sub">I help startups and entrepreneurs scaling visibility through Product Design and Strategy.</h2>
+            <h2 class="hero__sub">I help startups and entrepreneurs scale visibility through Product Design and Strategy.</h2>
           </div>
         </div>
       </div>
@@ -41,7 +41,7 @@
             </p>
           </div>
           <div class="col-md-5 offset-md-1" data-aos="fade">
-            <p class="sectionContent_read">The day I saved my first .html file everything changed. It sounds stupid, but as soon as I realised that I could make a website myself, and I could make it look just like I wanted to, I became really exited.</p>
+            <p class="sectionContent_read">The day I saved my first .html file everything changed. It sounds stupid, but as soon as I realised that I could make a website myself, and I could make it look just like I wanted to, I became really excited.</p>
             <p class="sectionContent_read">It didn't take me long to fall in love with web & overall interface design. Anyway, lately I've been mostly focusing on reading books, so I'll probably just stop writing ego-things about me and get to learn a bit more.</p>
           </div>
           <div class="col-12 text-center">
@@ -89,7 +89,7 @@ export default {
     return {
       title: 'Juan Martín Germano - Product Designer',
       meta: [
-        { hid: 'description', name: 'description', content: 'Designer based in Buenos Aires. I help startups and entrepreneurs scaling visibility through Product Design and Strategy.' }
+        { hid: 'description', name: 'description', content: 'Designer based in Buenos Aires. I help startups and entrepreneurs scale visibility through Product Design and Strategy.' }
       ]
     }
   },
